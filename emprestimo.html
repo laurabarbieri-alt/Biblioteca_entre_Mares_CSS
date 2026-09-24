@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca - Entre Marés - Empréstimo</title>
+</head>
+<body>
+     <header>
+       <h1>Biblioteca - Entre Marés - Empréstimo</h1>
+       <nav>
+        <a href="index.html">Início</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="emprestimo.html">Empréstimo</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="contato.html">Contato</a>
+       </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Empréstimo</h2>
+            <p>
+                Escolha seu livro, faça o cadastro do empréstimo e aproveite a leitura com tranquilidade.
+                <br>
+                 <strong>Após o prazo combinado</strong>, basta devolver o livro para que outra pessoa também possa viver essa história.
+            </p>
+        </section>
+        <H2>Pegue seu livro</H2>
+        <form action="#" method="post">
+             <label for="nome">Nome Completo:</label>
+            <input 
+                type="text" name="nome" id="nome" required> 
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input 
+                  type="tel" 
+                  name="telefone" 
+                  id="telefone"
+                   required
+                 inputmode="numeric"
+                 maxlength="15"
+                 pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
+                 title="Digite com DDD. Ex: (17) 98765-4321 ou 17987654321"
+            >
+            <br>
+            <label for="data-emp">Data do empréstimo:</label>
+            <input type="date" name="data-emp" id="data-emp" required>
+            <br>
+            <label for="data-dev">Data para devolução:</label>
+            <input type="date" name="data-dev" id="data-dev" required>
+            <br>
+            <label for="categoria">Categorias</label>
+            <select name="categoria" id="categoria" required>
+                <option value="">Selecione uma opção</option>
+                <option value="infantil">Infantil</option>
+                <option value="romance">Romance</option>
+                <option value="classico">Clássico</option>
+                <option value="fantasia">Fantasia</option>
+                <option value="drama">Drama</option>
+                <option value="biografia">Biografia</option>
+                <option value="aventura">Aventura</option>
+                <option value="lit-brasileira">Literatura Brasileira</option>
+            </select>
+            <br>
+            <button type="submit">Confirmar agendamento</button>
+        </form>
+    </main>
+    
+     <footer>
+        <h2>Informações</h2>
+        <p>Contato: (17) 98765-4321 | insta@biblio_entre_mares</p>
+        <p>Endereço: Rua das Areias, 678 Praia das Toninhas - Ubatuba - SP</p>
+        <p>&copy; <i>Biblioteca Entre Marés</i></p>
+    </footer>
+</body>
+</html>
