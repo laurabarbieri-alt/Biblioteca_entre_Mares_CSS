@@ -186,3 +186,15 @@ label {
 #foto-fachada {
     background-image: url("fachada-biblioteca-entre-marés.png");
 }
+
+h1 {
+    color: #d8c900;
+}
+
+th {
+    color: #d8c900;
+}
+
+td {
+    color: #d8c900;
+}
