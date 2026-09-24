@@ -77,6 +77,16 @@ footer {
     padding: 24px 16px;
 }
 
+a {
+    text-decoration: none;
+    color: #b3a700;
+}
+
+a:hover {
+    color:  #d3d324d8;
+    text-decoration:solid;
+}
+
 button {
     background-color: #9d9d2a;
     color: white;
@@ -114,4 +124,65 @@ td {
 
 tr:hover {
     background-color: #eee8a5;
+}
+
+label {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.campo,
+.opcao {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 15px;
+    border: 1px solid #e4e4b8;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.caixa {
+    background-color: rgb(252, 255, 207);
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.foto {
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#sobre {
+    background-color: #ffffc8;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+#pe {
+     padding: 24px 0px;
+}
+
+#emprestimo {
+    background-color: #ffffc8;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+#foto-fachada {
+    background-image: url("fachada-biblioteca-entre-marés.png");
 }

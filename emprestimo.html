@@ -27,14 +27,14 @@
                  <strong>Após o prazo combinado</strong>, basta devolver o livro para que outra pessoa também possa viver essa história.
             </p>
         </section>
-        <H2>Pegue seu livro</H2>
-        <form action="#" method="post">
+        <H2 id="emprestimo">Pegue seu livro</H2>
+        <form action="#" method="post" class="formulario">
              <label for="nome">Nome Completo:</label>
             <input 
-                type="text" name="nome" id="nome" required> 
+                type="text" name="nome" id="nome" required class="campo"> 
             <br>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" class="campo">
             <br>
             <label for="telefone">Telefone:</label>
             <input 
@@ -46,16 +46,17 @@
                  maxlength="15"
                  pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
                  title="Digite com DDD. Ex: (17) 98765-4321 ou 17987654321"
+                  class="campo"
             >
             <br>
             <label for="data-emp">Data do empréstimo:</label>
-            <input type="date" name="data-emp" id="data-emp" required>
+            <input type="date" name="data-emp" id="data-emp" required class="campo">
             <br>
             <label for="data-dev">Data para devolução:</label>
-            <input type="date" name="data-dev" id="data-dev" required>
+            <input type="date" name="data-dev" id="data-dev" required class="campo">
             <br>
             <label for="categoria">Categorias</label>
-            <select name="categoria" id="categoria" required>
+            <select name="categoria" id="categoria" required class="opcao">
                 <option value="">Selecione uma opção</option>
                 <option value="infantil">Infantil</option>
                 <option value="romance">Romance</option>
@@ -71,7 +72,7 @@
         </form>
     </main>
     
-     <footer>
+     <footer id="pe">
         <h2>Informações</h2>
         <p>Contato: (17) 98765-4321 | insta@biblio_entre_mares</p>
         <p>Endereço: Rua das Areias, 678 Praia das Toninhas - Ubatuba - SP</p>
