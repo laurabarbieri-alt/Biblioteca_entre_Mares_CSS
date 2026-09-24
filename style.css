@@ -1,9 +1,11 @@
+/* Seletor Universal */
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Seletor de Tags */
 body {
     font-family:'Times New Roman', Times, serif;
     background-color: #fafae3;
@@ -130,6 +132,12 @@ label {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Seletor compartilhado */
+h1, th, td {
+    color: #d8c900;
+}
+
+/* Seletor de classe e um seletor de classe compartilhado também */
 .campo,
 .opcao {
     width: 100%;
@@ -167,6 +175,7 @@ label {
     margin-bottom: 12px;
 }
 
+/* Seletor de ID*/
 #sobre {
     background-color: #ffffc8;
     border-radius: 8px;
@@ -185,8 +194,4 @@ label {
 
 #foto-fachada {
     background-image: url("fachada-biblioteca-entre-marés.png");
-}
-
-h1, th, td {
-    color: #d8c900;
 }
